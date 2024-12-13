@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() 
+{
+    printf("Demonstration of continue statement:\n");
+    for (int i = 0; i < 10; i++) 
+    {
+        if (i == 4) 
+        {
+            continue; // Skip the iteration when i equals 4
+        }
+        printf("i = %d\n", i);
+    }
+
+    printf("\nDemonstration of break statement:\n");
+    for (int i = 0; i < 10; i++) 
+    {
+        if (i == 4) 
+        {
+            break; // Exit the loop when i equals 4
+        }
+        printf("i = %d\n", i);
+    }
+
+    return 0;
+}

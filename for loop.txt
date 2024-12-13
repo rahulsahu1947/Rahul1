@@ -1,0 +1,17 @@
+//for loop   
+/* Write a Program to calculate the product of first n 
+natural  numbers (Positive integers 1,2,3...n are known as 
+natural  numbers) using for loop.*/   
+#include<stdio.h> 
+int main()  
+{  
+int n, i, prod = 1;  
+printf("Enter a positive integer: ");  
+scanf("%d", &n);  
+for (i = 1; i <= n; ++i)  
+{  
+prod = prod * i;  
+}  
+printf("Product = %d\n", prod);  
+return 0;  
+} 

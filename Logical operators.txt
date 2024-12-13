@@ -1,0 +1,15 @@
+//Logical operators 
+#include<stdio.h> 
+int main() 
+{ 
+int a=10, b=5, AND, OR, NOT, AND_OR; 
+AND = (a > 10) && (b > a); 
+printf("Logical AND output =%d\n", AND) ; 
+OR = (a == 10) || (b > a); 
+printf("Logical OR output =%d\n", OR) ; 
+AND_OR = ((a >= 10) || (b > a) && (b==5)); 
+printf("Logical Expression output =%d\n",AND_OR) ; 
+NOT = !((a >= 10) || (b > a) && (b==5)); 
+printf("Logical NOT output =%d\n", NOT) ; 
+return 0; 
+}

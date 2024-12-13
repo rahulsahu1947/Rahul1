@@ -1,0 +1,19 @@
+#include <stdio.h>  
+int main()  
+{  
+int n;  
+int dig, sum,pro;  
+printf("\nEnter an integer number :");  
+scanf("%d",&n) ; 
+/*Calculating Sum and Product*/  
+pro=1;  
+do  
+{  
+dig=n%10; /*get digit*/  
+pro*=dig;  
+n=n/10;  
+} 
+while (n>0);  
+printf("\nPRODUCT of all digits: %d\n ",pro);  
+return 0;  
+} 

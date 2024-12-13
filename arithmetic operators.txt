@@ -1,0 +1,22 @@
+#include<stdio.h> 
+int main()  
+{ 
+int num1, num2;  
+f
+ loat result;  
+printf("Enter values num1 and num2\n");  
+scanf("%d %d",&num1, &num2); 
+result = num1+ num2;  
+printf(" Addition =%.0f \n", result);  
+result = num1- num2;  
+printf(" Subtraction =%.0f \n", result);  
+result = num1*num2;  
+printf(" Multiplication =%.0f \n", result);  
+result = num1/num2;  
+printf(" Division =%.2f \n", result);  
+result = (float) num1/num2;  
+printf(" Division =%.2f \n", result);  
+result = num1%num2;  
+printf(" Module Division =%.2f \n", result);  
+return 0;  
+}

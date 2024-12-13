@@ -1,0 +1,28 @@
+//Multiway Decision  else if ladder 
+#include <stdio.h>  
+int main()  
+{  
+int choice;  
+printf("Enter a number (1-3) to perform an action:\n");  
+printf("1: Say Hello\n");  
+printf("2: Say Goodbye\n");  
+printf("3: Say Have a nice day\n"); // Ask user to choose an option  
+scanf("%d", &choice); // Read the user's choice  
+if (choice == 1)  
+{  
+printf("Hello!\n");  
+}   
+else if (choice == 2) 
+{  
+printf("Goodbye!\n");  
+}   
+else if (choice == 3) 
+{  
+printf("Have a nice day!\n");  
+}   
+else  
+{  
+printf("Invalid choice! Please enter a number between 1 and 3.\n");   
+}  
+return 0;  
+}
